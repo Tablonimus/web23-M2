@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+
+  <script src="./index.js"></script>
+
     <title>Document</title>
   </head>
   <body>
@@ -20,14 +22,20 @@
     </p>
 <p>
 <div class="ejercicio">
-    <span >1- nuevaString = <script>
-          if (typeof nuevaString ==="string") {
-          document.write(`<span style="color:green">"${nuevaString}" ✔</span>`);
+    <span >1- nuevaString = 
+
+
+      <script>
+          if (typeof nuevaString ===`string`) {
+          document.write(`<span style="color:green">  ${nuevaString} ✔</span>`);
         } else {
         
           document.write(`<span style="color:red">Respuesta Incorrecta ❌</span>`);
         }
-    </script></span>
+    </script>
+    
+  
+  </span>
 </div>
 <div class="ejercicio">
     <span >2- nuevoNum = <script>
@@ -82,7 +90,7 @@
 </div>
 <div class="ejercicio">
     <span >7- mayorQue50 = <script>
-          if (mayorQue50) {
+          if (mayorQue50 && typeof mayorQue50 !== "boolean") {
           document.write(`<span style="color:green">${mayorQue50} ✔</span>`);
         } else {        
           document.write(`<span style="color:red">Respuesta Incorrecta ❌</span>`);
